@@ -8,7 +8,7 @@ Use Mediapipe in `./nod_headshake/face_detection` to extract landmarks and motio
 
 ### 3. Fine Valid Results
 
-Use `./generate_usable.py` to fine usable video-result pairs and save it into a txt file. See `./README.md` for details.
+Use `./generate_usable.py` to fine usable video-result pairs and save it into a txt file. See `./Current_folder_README.md` for details.
 
 ### 4. Reaction Detection
 
@@ -16,4 +16,4 @@ For six different reaction classes, use different detectors in `./reaction_detec
 
 ### 5. HDF5 Injection
 
-Use `./build_reaction_pruned_h5.py` to inject reaction scores into a HDF5 file. See `./RAEDME.md` for details.
+Use `./build_reaction_pruned_h5.py` to inject reaction scores into a HDF5 file. See `./Current_folder_RAEDME.md` for details.
