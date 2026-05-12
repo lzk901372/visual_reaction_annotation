@@ -1,0 +1,15 @@
+# Generated result directories
+**/output*/
+**/combined*/
+**/reaction_sample/
+
+# Common local runtime artifacts
+**/__pycache__/
+*.py[cod]
+
+# Video, image, pickle, CSV, and text files in this directory and all subdirectories
+**/*.mp4
+**/*.jpg
+**/*.pkl
+**/*.csv
+**/*.txt
