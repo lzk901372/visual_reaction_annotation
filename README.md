@@ -17,3 +17,7 @@ For six different reaction classes, use different detectors in `./reaction_detec
 ### 5. HDF5 Injection
 
 Use `./build_reaction_pruned_h5.py` to inject reaction scores into a HDF5 file. See `./Current_folder_RAEDME.md` for details.
+
+### 6. Prosody extraction and injection
+
+After reaction scores injection, one can go on and inject prosody scores into HDF5 files. See `./prosody_extract/README.md` for details.
