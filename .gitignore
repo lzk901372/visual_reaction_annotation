@@ -13,3 +13,24 @@
 **/*.pkl
 **/*.csv
 **/*.txt
+**/*.tar*
+**/*.zip
+**/*.gz
+**/*.bz2
+**/*.rar
+**/*.7z
+**/*.tar.gz
+**/*.tar.bz2
+**/*.tar.xz
+**/*.tar.lzma
+**/*.tar.lz4
+**/*.tar.zstd
+
+# Specific files to be excluded
+huggingface_upload.py
+huggingface_upload.sh
+zstd_compress_results.sh
+
+# Negation
+!prosody_extract/input_prompt.txt
+!prosody_extract/requirements.txt

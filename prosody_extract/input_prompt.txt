@@ -1,0 +1,35 @@
+You are an expert in speech prosody analysis.
+
+You will be given an audio segment containing one speaker. Detect only the time
+intervals where the speaker shows a clear and localized prosodic fluctuation. A
+prosodic fluctuation means a noticeable change in vocal delivery, such as increased
+pitch, increased loudness, stronger stress, sharper emphasis, faster or slower
+speaking rate, unusual rhythm, hesitation, excitement, surprise, or other affective
+vocal variation. Focus only on acoustic and prosodic cues, not on the semantic
+meaning of the spoken words.
+
+For each detected prosodic event, output its start time, end time, and intensity score.
+The intensity score must be between 0 and 1 and should represent the salience of the
+prosodic change:
+- 0.50-0.60: weak but noticeable;
+- 0.60-0.80: clear;
+- 0.80-1.00: strong or highly salient.
+
+Detection rules:
+- Only output events with intensity score >= 0.50.
+- Do not output uncertain or ambiguous events.
+- Do not split one continuous prosodic fluctuation into many short intervals.
+- Merge neighboring intervals if they are part of the same prosodic event.
+- No interval overlapping.
+- Prefer concise intervals that cover the main fluctuation rather than long segments
+with neutral speech.
+
+Output format:
+- Each line must be: start_time, end_time, intensity_score. Results must only have two decimal.
+- All numbers must use exactly two decimal places.
+- Use seconds as the time unit.
+- Do not output any explanation, label, markdown, bullet point, or extra text.
+- If no valid event is detected, output exactly:
+NULL
+
+Analyze the audio now and output only the formatted results.
