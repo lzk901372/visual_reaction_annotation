@@ -39,6 +39,10 @@ Aligned SPEAKER audio --> 6. Qwen2-Audio prosody extraction           |
 
 The raw-video filtering, portrait cropping, source separation, diarization, and speaker–listener pairing described in the paper must be completed upstream. Manual event verification and the final reaction-metric evaluation protocol are separate from the automatic pipeline above.
 
+The following is the workflow from the paper.
+
+![This image illustrates our reaction annotation pipeline](./annotation_pipeline.png "Annotation Pipeline")
+
 ## Repository structure
 
 ```text
