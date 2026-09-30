@@ -426,7 +426,7 @@ Reaction keys are derived as `<conversation_id>_<clip_id>` for RealTalk and the 
 
 ### Samples
 
-To provide a more detailed representation of the processed data, we release our processed data at [this link](https://huggingface.co/datasets/lzk901372/visual_reaction_annotation_results).
+To provide a more detailed representation of the processed data, we release our processed data at [this link](https://huggingface.co/datasets/lzk901372/GLARE_reaction_annotation_results).
 
 ## License
 
