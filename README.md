@@ -424,6 +424,10 @@ An all-zero row means no retained reaction in this representation; it is not an 
 
 Reaction keys are derived as `<conversation_id>_<clip_id>` for RealTalk and the CSV filename stem for Seamless. Prosody keys follow the matching dataset-specific directory rules; Seamless prosody keys remove `_speak`. These keys must agree with the existing training HDF5. Shapes above use the default 60-frame chunk size.
 
+### Samples
+
+To provide a more detailed representation of the processed data, we release our processed data at [this link](https://huggingface.co/datasets/lzk901372/visual_reaction_annotation_results).
+
 ## License
 
 We obtain RealTalk and Seamless Interaction data through their authorized release channels and follow their respective terms. We adopt MIT License for our data processing pipeline.
